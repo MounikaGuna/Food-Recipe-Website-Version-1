@@ -1,0 +1,144 @@
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background: rgb(208, 208, 208); /*background-size:cover;background-blend-mode:darken;*/
+    font-family: sans-serif;
+}
+
+.whole{
+    justify-content: center;
+    align-items: center;
+}
+.box-container{
+    display: flex;
+    gap: 10rem;
+    padding:20px;
+    margin-left:300px;
+    margin-top: 20px;
+}
+.box-ingre ul li{
+    text-align: justify;
+    font-size: 18px;
+    color:black;
+    margin-top:8px;
+   
+}
+.whole h1{
+    text-align: center;
+    font-size:45px ;
+    font-family: 'Brush Script MT', cursive;
+    color:black;
+    margin-top: 20px;
+    
+}
+.recipe h1{
+    text-align: center;
+    font-size:45px ;
+    font-family: 'Brush Script MT', cursive;
+    color:black;
+    
+}
+.box-img {
+    width:400px;
+    height:300px;
+    margin-top:-10px;
+    box-shadow: 1px 1px 20px rgb(133, 73, 133);
+    cursor:pointer;
+    overflow:hidden;
+    position: relative;
+}
+.box-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:grayscale(0);
+    transition: .3s;
+    
+}
+.box-img img:hover{
+    filter:grayscale(0.4);
+    transform:scale(1.3) rotate(7deg);
+}
+.text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;  
+    
+}
+
+  
+.box-img:hover .text {
+    opacity: 1; 
+  }
+.box-ingre h1{
+   
+    font-size:45px ;
+    font-family: 'Brush Script MT', cursive;
+    color:black;
+    margin-top:30px ;
+    margin-bottom:10px;
+    text-align: left;
+}
+.recipe pre{
+    font-size: 18px;
+    margin-left:100px;
+    text-align: justify;
+    margin-top:10px;
+    margin-right:100px;
+}
+footer{
+    position:relative;
+    width:100%;
+    background:rgb(156, 52, 142);
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.navbar a{
+        text-decoration: none;
+        color:white;
+        transition: .3s;
+        margin:auto;
+        font-size: 1.2rem;
+        
+}
+.navbar a:hover ,.navbar a.active{
+        color:rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
